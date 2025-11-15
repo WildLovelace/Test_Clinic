@@ -65,7 +65,7 @@
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone <ссылка-на-репозиторий>
+git clone https://github.com/WildLovelace/Test_Clinic
 ```
 
 ### 2. Настроить сервер
