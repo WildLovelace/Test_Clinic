@@ -639,7 +639,7 @@ form {
     .container_card_stages_number {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
     }
 
     .container_card_stages_number_container {
@@ -663,7 +663,7 @@ form {
     }
 
     .card_stages p {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 
@@ -700,7 +700,7 @@ form {
 
     .about_us_container p {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
 
     .about_us_container ul {
@@ -717,6 +717,7 @@ form {
         height: auto;
         max-height: 250px;
     }
+
     .popup {
         width: 100%;
         height: auto;
@@ -826,7 +827,7 @@ form {
 
 .menu-list {
     z-index: 1;
-    top: 18%;
+    top: 20%;
     left: 0;
     position: absolute;
     display: flex;
@@ -857,4 +858,73 @@ form {
 
 .burger-checkbox:checked~.menu-list {
     transform: translateX(0);
+}
+
+.stages-mobile-container {
+    display: block;
+}
+
+.hr-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .stages-mobile-container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .container_card_stages_number_container {
+        flex: 1;
+    }
+
+    .container_card_stages_icon {
+        flex: 1;
+        display: flex !important;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card_stages {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card_stages span {
+        font-size: 40px !important;
+        line-height: 1 !important;
+        text-align: right !important;
+    }
+
+    .container_card_stages_number .card_stages{
+        display: flex;
+        justify-content: end;
+    }
+
+    .container_card_stages {
+        padding: 20px 10px;
+    }
+
+    .card_stages img {
+        width: 40px !important;
+        height: 40px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .hr {
+        display: none;
+    }
+
+    .container_card_stages:not(:first-of-type) {
+        display: block !important;
+        padding: 20px 15px;
+    }
+
+    .container_card_stages_number_container {
+        display: block !important;
+        flex-direction: row-reverse;
+    }
 }
