@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+<header>
+    <div class="banner">
+        <p>Имеются противопоказания, необходимо проконсультироваться со специалистом 18+</p>
+    </div>
+
+    <div class="header_menu_container">
+        <div class="logo_img">
+            <img src="static/img/logo.png" alt="Logo">
+        </div>
+        <div class="header_menu">
+            <ul>
+                <li>Услуги</li>
+                <li>Этапы лечения</li>
+                <li>О нас</li>
+                <li>Отзывы</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+        <div class="header_contacts">
+            <div class="phone">
+                <span>8(906)180-00-41</span>
+                <p>Работаем 24/7</p>
+            </div>
+            <button onclick="myDialog.showModal()" class="call_btn">Заказать звонок</button>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section class="main">
+        <div class="container_info">
+            <h1>Срочный вызов врача-нарколога</h1>
+            <ul>
+                <li>Сохраняем анонимность, не требуем паспорт и не ставим на учёт</li>
+                <li>Помощь квалифицированного врача на дому</li>
+                <li>Приедем на адрес за 20 минут</li>
+                <li>Первичная консультация - бесплатно</li>
+            </ul>
+            <div class="container_info_btn">
+                <button>Получить помощь</button>
+                <button onclick="myDialog.showModal()">Заказать звонок</button>
+            </div>
+        </div>
+        <div>
+            <img src="static/img/doctor.png" alt="doctor">
+        </div>
+    </section>
+    <section>
+        <article>
+            <h2>Наши услуги</h2>
+            <div class="container_card">
+                <div class="card">
+                    <img src="static/img/price1.jpg" alt="price">
+                    <h3>Cтандартная терапия</h3>
+                    <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении</p>
+                    <div class="container_card_price">
+                        <p>от 2400 ₽</p>
+                        <button class="price_btn">Начать лечение</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/img/price2.png" alt="price">
+                    <h3>Усиленная терапия</h3>
+                    <p>Рекомендуется для облегчения похмелья и прерывания запоев длительностью до недели</p>
+                    <div class="container_card_price">
+                        <p>от 5800 ₽</p>
+                        <button class="price_btn">Начать лечение</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/img/price3.png" alt="price">
+                    <h3>Восстановление+</h3>
+                    <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении</p>
+                    <div class="container_card_price">
+                        <p>от 15800 ₽</p>
+                        <button class="price_btn">Начать лечение</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/img/price4.png" alt="price">
+                    <h3>Максимальная терапия</h3>
+                    <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении</p>
+                    <div class="container_card_price">
+                        <p>от 18800 ₽</p>
+                        <button class="price_btn">Начать лечение</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/img/price5.jpg" alt="price">
+                    <h3>Кодирование+</h3>
+                    <p>Рекомендуется для облегчения похмелья и прерывания запоев длительностью до недели</p>
+                    <div class="container_card_price">
+                        <p>от 3200 ₽</p>
+                        <button class="price_btn">Начать лечение</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="static/img/price6.jpg" alt="price">
+                    <h3>Выезд нарколога на дом</h3>
+                    <p>Для облегчения похмельного синдрома и прерывания запоя. А также при алкогольном отравлении</p>
+                    <div class="container_card_price">
+                        <p>от 3500 ₽</p>
+                        <button class="price_btn">Начать лечение</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article>
+
+            <div class="container_card_stages">
+                <h2>Этапы лечения</h2>
+                <div>
+                    <div class="container_card_stages_number">
+                        <div class="card_stages">
+                            <span>01</span>
+                        </div>
+                        <div class="card_stages">
+                            <span>02</span>
+                        </div>
+                        <div class="card_stages">
+                            <span>03</span>
+                        </div>
+                        <div class="card_stages">
+                            <span>04</span>
+                        </div>
+                        <div class="card_stages">
+                            <span>05</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="container_card_stages_icon">
+                    <div class="card_stages">
+                        <img src="static/icon/stages_icon_1.png" alt="icon">
+                        <p>Диагностика состояния</p>
+                    </div>
+                    <div class="card_stages">
+                        <img src="static/icon/stages_icon_2.png" alt="icon">
+                        <p>Составление плана лечения</p>
+                    </div>
+                    <div class="card_stages">
+                        <img src="static/icon/stages_icon_3.png" alt="icon">
+                        <p>Снятие симптомов</p>
+                    </div>
+                    <div class="card_stages">
+                        <img src="static/icon/stages_icon_4.png" alt="icon">
+                        <p>Восстановление организма</p>
+                    </div>
+                    <div class="card_stages">
+                        <img src="static/icon/stages_icon_5.png" alt="icon">
+                        <p>Бесплатные консультации</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="about_us">
+        <article>
+            <div class="about_us_container">
+                <h2>О клинике</h2>
+                <p>Наши квалифицированные врачи и наркологи предлагают широкий спектр наркологических услуг, включая
+                    стационарное лечение, кодирование, и многие другие виды лечения. Мы заботимся о каждом пациенте и
+                    гарантируем высокое качество нашей работы. Не стесняйтесь обращаться к нам в любое время, мы всегда
+                    готовы оказать наркологическую помощь.</p>
+                <ul>
+                    <li>Квалифицированные врачи-наркологи</li>
+                    <li>Находим решение даже в сложных ситуациях</li>
+                    <li>Используем импортные проверенные препараты</li>
+                    <li>Лицензия Л041-01177-91/00561129</li>
+                </ul>
+            </div>
+            <img class="doctor2" src="static/img/doctor2.png" alt="doctor2">
+        </article>
+        <article>
+            <h3>Имеем все необходимые документы для предоставления медицинских услуг:</h3>
+            <div class="container_docs">
+                <div>
+                    <img src="static/img/docs1.png" alt="docs1">
+                    <button class="img_plus">+</button>
+                </div>
+                <div>
+                    <img src="static/img/docs2.png" alt="docs2">
+                    <button class="img_plus">+</button>
+                </div>
+                <div>
+                    <img src="static/img/docs3.png" alt="docs3">
+                    <button class="img_plus">+</button>
+                </div>
+                <div>
+                    <img src="static/img/docs4.png" alt="docs4">
+                    <button class="img_plus">+</button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <dialog id="myDialog">
+        <div class="popup">
+            <button onclick="myDialog.close()" class="close-btn" aria-label="Закрыть">×</button>
+            <h2>Заказать звонок</h2>
+            <p>Просто оставьте заявку и мы вам перезвоним в ближайшее время</p>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" placeholder="Ваше имя" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <div class="phone-input">
+                        <input type="tel" id="phone" placeholder="999-999-99-99" required>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn">Отправить</button>
+                <div class="privacy">
+                    Нажимая кнопку «Отправить», вы соглашаетесь с политикой конфиденциальности
+                </div>
+            </form>
+
+        </div>
+
+    </dialog>
+</body>
+
+</html>
